@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 200px;
+    width: 50%;
     margin-top: 100px;
 }
 .input2:focus {
@@ -94,7 +94,7 @@ body {
 }
 .photo {
     object-fit: cover;
-    width: 500px;
+    width: 50%;
 }
 .headermain {
     display: flex;
