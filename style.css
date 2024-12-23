@@ -5,8 +5,7 @@
 body {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 100vh;
+    height: 108vh;
 }
 .container {
     display: flex;
@@ -14,7 +13,6 @@ body {
     justify-content: center;
     align-items: center;
     width: 50%;
-    margin-top: 100px;
 }
 .input2:focus {
     border: 2px solid rgb(0, 0, 0);
@@ -84,7 +82,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    gap: 20px;
+    gap: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .img {
@@ -92,14 +90,11 @@ body {
     height: 100%;
     object-fit: cover;
 }
-.photo {
-    object-fit: cover;
-    width: 50%;
-}
+
 .headermain {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
     width: 400px;
 }
 .innerheader {
@@ -110,17 +105,17 @@ body {
 .div1 {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
 }
 .div2 {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
 }
 .div3 {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
 }
 .container2 {
     display: flex;
@@ -142,6 +137,7 @@ body {
     align-items: center; 
     border: none;
     box-shadow: 9px 9px 9px rgba(114, 113, 255, 0.25);
+    cursor: pointer;
 }
 .signup {
     padding: 18px;
@@ -157,12 +153,13 @@ body {
     gap: 16px;
     align-items: center; 
     height: 69px;
+    cursor: pointer;
 }
 .login {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 10px;
+    gap: 8px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .fifqi {
